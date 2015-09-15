@@ -53,7 +53,7 @@ module.exports = {
   },
 
   'exercises': {
-    'root'  : 'answers'
+    'root'  : 'exercises'
   },
 
   'watch': ['answers/**/*.js', 'answers/**/*.html'],
