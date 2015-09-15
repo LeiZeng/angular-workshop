@@ -9,8 +9,8 @@ gulp.task('exercises', ['browserSync'], () => {
 
   let server = express()
 
-  server.use(express.static(config.dist.root))
-  server.use(serveIndex(config.dist.root, {'icons': true}))
+  server.use(express.static(config.exercises.root))
+  server.use(serveIndex(config.exercises.root, {'icons': true}))
 
   let s = http.createServer(server)
 
