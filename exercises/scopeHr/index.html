@@ -9,11 +9,11 @@
   <div class="show-scope-demo">
     <div ng-controller="GreetController">
       Hello {{name}}!
-    </div>
-    <div ng-controller="ListController">
-      <ol>
-        <li ng-repeat="name in names">{{name}} from {{department}}</li>
-      </ol>
+      <div ng-controller="ListController">
+        <ol>
+          <li ng-repeat="name in names">{{name}} from {{department}}</li>
+        </ol>
+      </div>
     </div>
   </div>
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
