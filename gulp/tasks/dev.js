@@ -6,5 +6,5 @@ gulp.task('dev', ['clean'], (cb) => {
 
   global.isProd = false;
 
-  runSequence(['sass', 'images', 'fonts', 'views', 'browserify'], 'watch', cb)
+  runSequence(['sass', 'views', 'browserify'], 'watch', cb)
 })
